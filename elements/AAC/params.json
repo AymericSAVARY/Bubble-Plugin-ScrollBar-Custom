@@ -1,0 +1,51 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "SCROLLBAR",
+    "fields": {
+        "AAD": {
+            "caption": "largeur (px)",
+            "default_val": 5,
+            "editor": "StaticNumber",
+            "in_style": true,
+            "name": "largeur_(px)",
+            "rank": 0
+        },
+        "AAE": {
+            "caption": "Piste",
+            "default_val": "rgba(51, 181, 229, 1)",
+            "editor": "Color",
+            "in_style": true,
+            "is_list": false,
+            "name": "piste",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAF": {
+            "caption": "Handle",
+            "default_val": "rgba(0, 112, 156, 1)",
+            "editor": "Color",
+            "in_style": true,
+            "name": "handle",
+            "rank": 2
+        },
+        "AAG": {
+            "caption": "Traitement en survol",
+            "default_val": "rgba(89, 142, 255, 1)",
+            "editor": "Color",
+            "in_style": true,
+            "name": "traitement_en_survol",
+            "rank": 3
+        }
+    },
+    "icon": "ion-levels",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "support_autobinding": false
+}
